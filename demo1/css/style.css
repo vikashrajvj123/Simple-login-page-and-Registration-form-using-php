@@ -1,0 +1,96 @@
+section.fst {
+    background: #d9c6c6;
+    padding: 15px;
+    height: 55px;
+    }
+    body{
+    	    background: linear-gradient(120deg, #2980b9, #8e44ad);
+    overflow: hidden;
+
+    }
+
+.nav {
+    display: inherit;
+}
+
+.nav-links {
+    text-align: right;
+}
+
+.nav-header {
+    float: left;
+}
+.nav-btn {
+    display: none;
+}
+.nav-links a {
+    padding-right: 20px;
+    color: #111024;
+}
+.nav-btn label span {
+    height: 7px;
+    border-bottom: 2px solid #000;
+    width: 30px;
+}
+
+/*.nav-btn {
+}*/
+
+.nav-btn label {
+    display: grid;
+}
+
+@media(max-width:991px){
+.nav-btn {
+    display: block;
+    float: right;
+}
+
+.nav-links {
+     display: none;
+    position: absolute;
+    width: 100%;
+    background-color: #333;
+    height: 0px;
+    transition: all 0.3s ease-in;
+
+    top: 50px;
+    left: 0px;
+}
+.nav-links a {
+    display: inherit;
+}
+
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    padding: 36px;
+    border-radius: 10px;
+}
+ .pass {
+    margin: 10px 0;
+    text-align: right;
+}
+.submit-btn {
+    text-align: center;
+    margin-top: 29px;
+}
+
+.submit-btn button {
+    background: #0062cc;
+    border: 0;
+    padding: 10px 90px;
+    /*color: #fff;*/
+    border-radius: 23px;
+}
+.submit-btn button:focus{
+    outline :0 !important;
+}
+.signup_link {
+    margin-top: 27px;
+}

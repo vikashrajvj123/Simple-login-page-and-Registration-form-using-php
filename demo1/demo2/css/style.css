@@ -1,0 +1,189 @@
+
+
+
+body {
+    background: linear-gradient(130deg, #d9dbdb, #d9dbdb);
+
+}
+
+ section.fst {
+    background: #d9c6c6;
+    padding: 15px;
+    height: 55px;
+    }
+
+
+.nav {
+    display: inherit;
+}
+
+.nav-links {
+    text-align: right;
+}
+
+.nav-header {
+    float: left;
+}
+.nav-btn {
+    display: none;
+}
+.nav-links a {
+    padding-right: 20px;
+    color: #111024;
+}
+.nav-btn label span {
+    height: 7px;
+    border-bottom: 2px solid #000;
+    width: 30px;
+}
+
+/*.nav-btn {
+}*/
+
+.nav-btn label {
+    display: grid;
+}
+
+@media(max-width:991px){
+.nav-btn {
+    display: block;
+    float: right;
+}
+
+.nav-links {
+     display: none;
+    position: absolute;
+    width: 100%;
+    background-color: #333;
+    height: 0px;
+    transition: all 0.3s ease-in;
+
+    top: 50px;
+    left: 0px;
+}
+.nav-links a {
+    display: inherit;
+}
+
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    padding: 36px;
+    border-radius: 10px;
+}
+ .pass {
+    margin: 10px 0;
+    text-align: right;
+}
+.submit-btn {
+    text-align: center;
+    margin-top: 29px;
+}
+
+.submit-btn a {
+    background: #0062cc;
+    border: 0;
+    padding: 10px 90px;
+    color: #fff;
+    border-radius: 23px;
+}
+.signup_link {
+    margin-top: 27px;
+}
+img.i1 {
+       width: 136px;
+}
+section.snd {
+    padding-top: 125px;
+}
+
+
+.head h1 {
+    font-size: 65px;
+    font-weight: 600;
+}
+.head p {
+    font-size: 31px;
+}
+
+
+
+.img1 img {
+    width: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+  margin:auto;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 22%;
+  margin-top: 6px;
+  padding: 0 30px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+section.thd {
+    margin-top: 30px;
+}
+section.thd h2 {
+    text-align: center;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
